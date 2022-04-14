@@ -1,0 +1,33 @@
+@use 'src/styles/vars.scss';
+
+
+.about {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  h1 {
+    color: black;
+    font-size: 1.6em;
+    margin-top: 30px;
+    font-family: Gravity;
+    font-weight: 600;
+  }
+}
+
+
+
+
+.Personne{
+display: flex;
+align-items: center;
+}
+
+img{
+  width: 200px;
+}
+
+
+
+
+

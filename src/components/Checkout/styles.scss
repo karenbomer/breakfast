@@ -1,0 +1,186 @@
+.Checkout-Checkout{
+  font-size: 22px;
+}
+
+
+ @media screen and (min-width: 1px) and (max-width: 1024px){
+  .Checkout-Checkout{
+    width: 100%;
+    padding-top: 3em;
+    padding:  1em;
+    
+    .Checkout-verif{
+      padding: 1em;
+    }
+    .Checkout-checkbox{
+      padding: 1em;
+    }
+    .Checkout-label{
+      font-size: 20px;
+    } 
+
+    .Checkout-Total{
+      position: absolute;
+      padding-left: 1em;
+      padding-right: 40%;
+
+
+      .Checkout-btnPayer{
+        background-color: #865439;
+        padding: 1em ;
+        margin-top: 1em;
+      }
+      .Checkout-btnPayer:hover{
+      background-color: #4b3223bd;
+      color: aliceblue;
+      }
+    }
+
+    .Checkout-Totaux{
+      position: absolute;
+      padding-left: 60%;
+    }
+
+    .Checkout-ligne{
+      margin: 1em;
+    }
+
+    .lapopup{
+      margin-left: 5%;  
+    }
+    .nopopup div{
+      display: none;
+    }
+    .popup{
+      position: absolute;
+      height: 60%;
+      width: 80%;
+      top: 20%;   
+      outline: solid 2px black;
+      background-color: rgb(255, 255, 255);
+    
+        .Checkout-confirmation{
+          padding: 2.5em;
+        }
+        .Checkout-etat{
+          padding-bottom: 1em;
+        }
+         
+        .Checkout-icone{
+          height: 100px;
+          margin-bottom: 2em;
+        }
+        .Checkout-heure{
+          padding: 0em 0em 1em 0em;
+        }
+        .Checkout-time{
+          padding: 1em;
+        }
+        .Checkout-btnEchap{
+          z-index: 10;
+          cursor: pointer;
+          font-size: 30px;
+          position: absolute;
+          margin-left: 90%;
+          margin-top: 1%;
+        }
+      }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+.Checkout-Checkout{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  .Checkout-infoPerso{
+    padding-left: 10%;    
+
+    .Checkout-verif{
+      padding: 2em;
+    }
+    .Checkout-ville{
+      padding-bottom: 2em;
+    }
+
+    .Checkout-checkbox{
+      padding-bottom: 2em;
+    }
+  }
+
+  .Checkout-droite{
+    margin-left: 10%;
+    margin-bottom: 20%;
+
+    .Checkout-Total{
+      position: absolute;
+      padding-left: 1em;
+
+
+      .Checkout-btnPayer{
+        background-color: #865439;
+        padding: 1em ;
+        margin-top: 1em;
+      }
+      .Checkout-btnPayer:hover{
+      background-color: #4b3223bd;
+      color: aliceblue;
+      }
+    }
+
+    .Checkout-Totaux{
+      position: absolute;
+      padding-right: 2em;
+      padding-left: 20%;
+    }
+
+    .Checkout-ligne{
+      margin: 1em;
+    }
+  }
+
+  .lapopup{
+    margin-left: -30%;
+  }
+  .nopopup div{
+    display: none;
+  }
+  .popup{
+    position: absolute;
+    height: 60%;
+    width: 50%;
+    top: 30%;   
+    outline: solid 2px black;
+    background-color: rgb(255, 255, 255);
+  
+      .Checkout-confirmation{
+        padding: 2.5em;
+      }
+      .Checkout-etat{
+        padding-bottom: 1em;
+      }
+       
+      .Checkout-icone{
+        height: 100px;
+        margin-bottom: 2em;
+      }
+      .Checkout-heure{
+        padding: 0em 0em 1em 0em;
+      }
+      .Checkout-time{
+        padding: 1em;
+      }
+      .Checkout-btnEchap{
+        z-index: 10;
+        cursor: pointer;
+        font-size: 30px;
+        position: absolute;
+        margin-left: 95%;
+        margin-top: 1%;
+      }
+    }
+}
+}

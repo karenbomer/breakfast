@@ -1,0 +1,205 @@
+.Basket-btnPayer:hover{
+  background-color: #4b3223bd;
+  color: aliceblue;
+  }
+
+@media (min-width: 60px) and (max-width: 1024px) {
+.Basket-Basket{
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.Basket-product{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  
+  .Basket-individual-product-total-price{
+    padding-top: 1em;
+  }
+  
+  .Basket-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .Basket-imgProduit{
+    padding: 1em;
+    border-radius: 40px;
+    object-fit: cover;    
+    height: 180px;
+    width: 180px;
+  }
+
+  .Basket-quantity{
+    padding: 0.5em 0.3em 0.5em 0.3em;
+    margin-right: 0.2em;
+    height: 20%;
+    font-weight: 600;
+    font-size: 30px; 
+
+    .math{
+      display: flex;
+      .plus{
+        padding: 0.3em;
+        height: 40px;
+        width: 40px;
+      }
+      .less{
+        padding: 0.3em;
+        height: 40px;
+        width: 40px;
+      }
+    }
+  }
+}
+.Basket-trait{
+  border-bottom: 1px rgb(0, 0, 0) solid;
+  padding-bottom: 1em;
+
+  .Basket-ligne{
+    display: flex;
+    justify-content: center;
+    padding: 0.6em;
+    font-size: 18px;
+  
+    .Basket-productPrice{
+      position: absolute;
+      right: 50px
+    }
+
+    .Basket-productName{
+      margin-left: 10px;
+      margin-right: 80px;
+    }
+  }
+}
+  .Basket-paye{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+
+    .Basket-totalPrice{
+      position: absolute;
+      right: 35px;
+      font-size: 23px;
+      padding-top: 0.2em;
+    }
+    .Basket-btnPayer{
+      background-color: #865439;
+      padding: 0.7em 1em;
+      margin-bottom: 2em;
+      margin-left: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Basket-Basket{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+
+    .Basket-products{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 5em;
+      padding:  2em 0em 0em 2em;
+      height: 600px;
+      width: 55%;
+      border-right: 1px solid black;
+
+      .Basket-product{
+        width: 260px;
+        height: 350px;
+        flex-direction: column;
+        justify-content: center;
+
+        .Basket-individual-product-total-price{
+          display: none;
+        }
+      }
+      .Basket-quantity{
+        padding: 1em;
+        font-weight: 600;
+        font-size: 20px;  
+
+        .math{
+          display: flex;
+          justify-content: center;
+          .plus{
+            margin: 0em 0.5em;
+            padding: 0.1em;
+            height: 30px;
+            width: 30px;
+          }
+          .less{
+            margin: 0em 0.5em;
+            padding: 0.1em;
+            height: 30px;
+            width: 30px;
+          }
+        }
+      }
+      .Basket-imgProduit{
+        padding: 1em;
+        border-radius: 40px;
+        object-fit: cover;    
+        height: 180px;
+        width: 180px;
+      }
+    }
+  }
+
+  .Basket-PriceListe{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 60%;
+    margin-top: 10%;
+
+    .Basket-paye{
+      display: flex;
+      justify-content: center;
+
+      .Basket-btnPayer{
+        background-color: #865439;
+        position: absolute;
+        left: 80px;
+        padding: 1em 2em;
+        margin-bottom: 2em;
+        margin-top: 1em;
+      }
+
+      .Basket-totalPrice{
+        position: absolute;
+        margin-left: 570px;
+        font-size: 23px;
+        padding-top: 1.5em;
+      }
+    }
+
+    .Basket-ligne{
+      display: flex;
+      justify-content: flex-start;
+      padding: 0.6em;
+      font-size: 18px;
+      text-align:left;
+
+      .Basket-productPrice{
+        position: absolute;
+        margin-left: 400px;
+      }
+      .Basket-productName{
+        margin-right: 130px;
+      }
+    }
+  }
+}
+
+
+//Mathys
