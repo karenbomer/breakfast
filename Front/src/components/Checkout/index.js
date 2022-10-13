@@ -38,9 +38,9 @@ const Checkout = () => {
           <div className="Checkout-verif">vérification d'adresse :</div>
           <div className="Checkout-ville">{currentBakery.address}</div>
         
-            <input type="radio" name="demo2" class="demo2 demoyes" id="demo2-a" checked/>
+            <input type="radio" name="demo2" className="demo2 demoyes" id="demo2-a" checked/>
             <label for="demo2-a">Click and Collect</label>
-            <input type="radio" name="demo2" class="demo2 demono" id="demo2-b" />
+            <input type="radio" name="demo2" className="demo2 demono" id="demo2-b" />
             <label for="demo2-b">Livraison à domicile</label>
         
           <ul className="Checkout-commande" >

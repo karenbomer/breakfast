@@ -8,6 +8,7 @@ import { addDelFavoris, getFavoris } from '../../favorisFunctions';
 import { useState } from 'react';
 import WhiteHeart from './Images/like-button-white.png';
 import RedHeart from './Images/like-button-red.png';
+
 // == Composant
 const Bakery = ({ id, img, time, name, delivery_fees, rating, bakery }) => {
     console.log(id);
@@ -43,7 +44,7 @@ const Bakery = ({ id, img, time, name, delivery_fees, rating, bakery }) => {
               Frais de livraison : {delivery_fees}€
             </p>
             <div className="bakery-list-rating">
-              <StarRating value={rating} />
+              <StarRating value={rating}/>
             </div>
           </div>
           {isFav == false ? (

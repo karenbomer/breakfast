@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+//import { BsInputCursorText } from "react-icons/bs";
 import { FaStar } from "react-icons/fa";
 
 import './styles.scss';
@@ -18,15 +19,12 @@ const StarRating = ({value}) => {
         const test = Math.random().toString(36).substr(2, 9)
 
         return (
-          <label className="stare" >
+          <label className="stars" >
             <input
-            
               type="radio"
               name="rating"
-              key={test}
-              // TODO key="test", faire boucle dans l'index
               value={ratingValue}
-              /* onClick={() => setRating(ratingValue)} */
+              //onClick={() => setRating(ratingValue)}
             />
             <FaStar className="star" color={ratingValue <= rating ? "#C68B59" : "#402218"} />
           </label>
