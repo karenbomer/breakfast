@@ -63,7 +63,3 @@ const IndividualProduct = ({id, img,  name, prix, count}) => {
 
 // == Export
 export default IndividualProduct;
-
-
-
-//Mathys
